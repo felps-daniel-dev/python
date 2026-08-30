@@ -1,0 +1,3 @@
+import operador
+
+operador = operador()

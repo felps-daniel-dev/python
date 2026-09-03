@@ -1,0 +1,66 @@
+1. Cadastro Simples de Usuário
+
+Crie um programa que leia o nome, o ano de nascimento e o salário de um funcionário. Depois, exiba o 
+nome do funcionário, a idade exata dele e o salário formatado em reais com duas casas decimais.
+
+2. Manipulador de Nomes
+
+Crie um programa que leia o nome completo de uma pessoa e mostre:
+
+O nome com todas as letras maiúsculas.
+
+O nome com todas as letras minúsculas.
+
+Quantas letras ao todo têm o nome (sem considerar os espaços).
+
+A primeira e a última palavra do nome digitado.
+
+Nível 2: Estruturas Condicionais (Mundo 1 & 2)
+3. Radar de VelocidadeCrie um programa que leia a velocidade de um carro. Se ele ultrapassar 80 km/h, mostre uma mensagem dizendo que 
+ele foi multado. A multa custa R$ 7,00 por cada km acima do limite. Se ele estiver dentro do limite, exiba uma mensagem de "Boa viagem".
+
+4. Aprovador de Empréstimo  Escreva um programa para aprovar o empréstimo bancário para a compra de uma casa. O programa vai perguntar o
+valor da casa, o salário do comprador e em quantos anos ele vai pagar.Calcule o valor da prestação mensal (ssendo prestação = valor / (anos * 12)).
+A prestação não pode exceder 30% do salário do comprador. Se exceder, o empréstimo é negado; caso contrário, é aprovado.
+
+Nível 3: Laços de Repetição (Mundo 2)
+5. Gerador de Tabuada com for
+
+Refaça a tabuada de um número que o usuário escolher, mas utilize um laço for exibindo a tabuada completa de 1 a 10.
+
+
+6. Validador de Dados e Menu com while
+
+Crie um programa que leia dois valores numéricos. Depois, mostre na tela o seguinte menu:
+
+Plaintext
+[ 1 ] Somar
+[ 2 ] Multiplicar
+[ 3 ] Maior número
+[ 4 ] Novos números
+[ 5 ] Sair do programa
+O programa deve realizar a operação solicitada em cada caso e só deve ser encerrado quando o usuário escolher a opção 5.
+
+Nível 4: Estruturas de Dados Compostas (Mundo 3)7. Análise com Tuplas e Listas  Crie um programa onde o usuário possa digitar vários 
+valores numéricos e cadastrá-los em uma lista.Caso o número já exista lá dentro, ele não deve ser adicionado.No final, exiba todos os valores 
+numéricos digitados em ordem crescente e informe quantos números válidos foram inseridos.
+
+8. Dicionário de Aluno
+
+Faça um programa que leia o nome e a média de um aluno, guardando tudo em um dicionário. No final, adicione ao dicionário a 
+situação do aluno ("Aprovado" se a média for maior ou igual a 7.0, ou "Reprovado" caso contrário). Exiba todo o conteúdo da estrutura formatado na tela.
+
+
+Nível 5: Funções e Modularização (Mundo 3)
+9. Sistema de Votação com Função (def)
+
+Crie uma função chamada voto() que receba como parâmetro o ano de nascimento de uma pessoa. A função deve retornar um valor literal indicando se a 
+pessoa tem voto NEGADO (menos de 16 anos), OPCIONAL (entre 16 e 17 anos ou acima de 65) ou OBRIGATÓRIO (entre 18 e 64 anos).
+
+
+Nível 6: Robustez e Tratamento de Erros (Mundo 3)
+10. Leitor Inteligente com try/except
+
+Escreva uma função chamada leiaInt() que funcione de forma semelhante à função input(), mas que faça a validação para aceitar apenas um valor numérico inteiro.
+
+Caso o usuário digite um texto ou número com vírgula/ponto, o programa deve capturar o erro com try/except, exibir uma mensagem de aviso em vermelho e continuar pedindo um número inteiro até que uma entrada válida seja fornecida.
